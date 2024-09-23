@@ -1,5 +1,3 @@
--- Summarise sales per year by using a CTE
-
 WITH cte AS (
 SELECT strftime('%Y', soldDate) AS soldYear, 
   salesAmount
